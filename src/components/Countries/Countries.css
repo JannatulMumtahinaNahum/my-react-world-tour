@@ -1,0 +1,15 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.button{
+    background-color: rgb(129, 162, 225);
+    font-weight: bolder;
+    margin-top: 4px;
+}
+
+.visited{
+    background-color: rgb(238, 183, 198);
+}
